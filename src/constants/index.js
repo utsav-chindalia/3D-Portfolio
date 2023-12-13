@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  K8s,
+  AWS,
+  Jenkins,
+  Aruba,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +46,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "E2E Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Micro Frontend Expert",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Backend For Frontend Specialist",
+    icon: creator,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Full Stack Developer",
+    icon: backend,
   },
 ];
 
@@ -93,78 +97,55 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "K8s",
+    icon: K8s,
+  },
+  {
+    name: "AWS",
+    icon: AWS,
+  },
+  {
+    name: "Jenkins",
+    icon: Jenkins,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Internship",
+    company_name: "Aruba Networks, Hewlett Packared Enterprise",
+    icon: Aruba,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2020 - August 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed several debugging skills to decrease bug turn around time",
+      "Pair programmed with senior developers to code and brainstorm solutions ",
+      "Introduced shell scripts and supported developers to work on VM’s to increase the productivity ",
+      "Fixed blockers and critical bugs within the planned duration and following best practices",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Cloud Engineer II",
+    company_name: "Aruba Networks, Hewlett Packared Enterprise",
+    icon: Aruba,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2020 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed end-to-end production-grade frontend applications and implemented a framework-like system for dynamic frontend views",
+      "Engineered components for an in-house component library utilized by over 20 service teams.",
+      "Architected and implemented solutions to transform monolithic frontends into micro frontends, significantly reducing build, deploy, and testing times.",
+      "Optimized initial page load time by integrating CDN, server-side rendering, and cache strategies, while also converting runtime processes into build-time processes, resulting in an approximate 3-4 second improvement.",
+      "Implemented Application Performance Monitoring (APM) for proactive monitoring and early detection of failures and bugs.",
+      "Attained Fedramp security certification by addressing container security vulnerabilities and conducting audits on third-party libraries.",
+      "Led multiple production crisis meetings involving cross-time zone teams",
     ],
   },
 ];
@@ -198,41 +179,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Lab Monitoring System — IEEE Published",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A software applications for lab admins to monitor and gather reports on lab systems and provide real time actions to automatically terminate blacklisted processes. Admins can gather screenshots and logs of any or all lab systems. The application also provides options to shut down all systems which helps in power management in large facilities. https://ieeexplore.ieee.org/abstract/document/8822069/",
     tags: [
       {
-        name: "react",
+        name: "web-socket",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "shell-script",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://ieeexplore.ieee.org/abstract/document/8822069/",
   },
   {
-    name: "Job IT",
+    name: "Distributed Key - Value Store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed highly available, fault-tolerant system to store objects in distributed servers that communicated via sockets and were monitored via zookeeper.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "blockchain",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "IPFS",
         color: "pink-text-gradient",
       },
     ],

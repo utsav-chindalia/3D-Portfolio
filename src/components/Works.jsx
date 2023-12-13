@@ -26,7 +26,7 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative 2-full h-[230px]">
+        {/* <div className="relative 2-full h-[230px]">
           <img
             src={image}
             alt={name}
@@ -40,10 +40,12 @@ const ProjectCard = ({
               <img src={github} alt="github" className="w-5 h-5" />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <p className="mt-2 text-secondary text-[14px] break-words">
+            {description}
+          </p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
@@ -74,7 +76,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

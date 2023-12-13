@@ -29,8 +29,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import K8s from "./tech/K8s.png";
+import AWS from "./tech/AWS.png";
+import Jenkins from "./tech/Jenkins.png";
+import Aruba from "./tech/Aruba.jpeg";
 
 export {
+  K8s,
   logo,
   backend,
   creator,
@@ -59,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  AWS,
+  Jenkins,
+  Aruba,
 };
