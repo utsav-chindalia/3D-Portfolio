@@ -179,20 +179,19 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Lab Monitoring System — IEEE Published",
-    description:
-      "A software applications for lab admins to monitor and gather reports on lab systems and provide real time actions to automatically terminate blacklisted processes. Admins can gather screenshots and logs of any or all lab systems. The application also provides options to shut down all systems which helps in power management in large facilities. https://ieeexplore.ieee.org/abstract/document/8822069/",
+    name: "Optimization",
+    description: "Decreased web page load time by 3 -4 seconds",
     tags: [
       {
-        name: "web-socket",
+        name: "CDN",
         color: "blue-text-gradient",
       },
       {
-        name: "python",
+        name: "S3",
         color: "green-text-gradient",
       },
       {
-        name: "shell-script",
+        name: "caching",
         color: "pink-text-gradient",
       },
     ],
@@ -200,20 +199,20 @@ const projects = [
     source_code_link: "https://ieeexplore.ieee.org/abstract/document/8822069/",
   },
   {
-    name: "Distributed Key - Value Store",
+    name: "Zero Down Time",
     description:
-      "Developed highly available, fault-tolerant system to store objects in distributed servers that communicated via sockets and were monitored via zookeeper.",
+      "Designed and implemented system to segregate s3 content for QA and Production environment without any downtime",
     tags: [
       {
-        name: "react",
+        name: "security",
         color: "blue-text-gradient",
       },
       {
-        name: "blockchain",
+        name: "CI/CD",
         color: "green-text-gradient",
       },
       {
-        name: "IPFS",
+        name: "production-cluster",
         color: "pink-text-gradient",
       },
     ],
@@ -221,20 +220,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Automation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Created internal tools and processes to help team members develop, deploy and test their changes locally reducing overall feature turn around time.      ",
     tags: [
       {
-        name: "nextjs",
+        name: "shell-script",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "npm-scripts",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "VM's",
         color: "pink-text-gradient",
       },
     ],
